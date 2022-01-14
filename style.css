@@ -1,0 +1,40 @@
+body {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 300px;
+    height: 440px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: o 15px;
+    font-family: poppins', sans-serif;
+
+}
+
+.intro-text p {
+    margin: 5px;
+    font-size: 15px;
+}
+
+.intro-text p a {
+    color: #121212;
+}
+
+form {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
